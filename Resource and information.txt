@@ -1,0 +1,18 @@
+--We have downloaded this data from : 
+https://ourworldindata.org/explorers/covid?tab=chart&time=2020-01-29..2021-04-30&country=FRA~USA~DEU~IND~CAN~GBR&Metric=Excess+mortality+%28estimates%29&Interval=Cumulative&Relative+to+population=true
+--We have selected specific columns for our analysis. 
+--We have then separated the data into two Excel workbooks: CovidDeaths and CovidVaccinations.
+--Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types.
+--These queries demonstrate various SQL techniques (JOINs, CTEs, Window Functions, Aggregate Functions)
+--while providing valuable insights into the COVID-19 pandemic.
+--in the db when continent is null the location will be a continent.
+ 
+-----------------------------------------------------
+--These queries demonstrate various SQL techniques including:
+
+--Basic aggregations (SUM, MAX, AVG)
+--Window functions (OVER clause)
+--Common Table Expressions (WITH clause)
+--Joins
+--Date manipulation (DATE_TRUNC)
+--Conditional logic (CASE statement)
